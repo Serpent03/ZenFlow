@@ -1,0 +1,15 @@
+.ButtonComponent {
+  transition: all 0.2s;
+  border: none;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 0.5rem
+}
+.ButtonComponent:hover {
+  cursor: pointer;
+  background-color: #231c4e !important;
+  transition: all 0.2s;
+}
+.ButtonComponent:focus {
+  background-color: #231c4e !important;
+}

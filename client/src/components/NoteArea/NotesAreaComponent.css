@@ -1,0 +1,22 @@
+.NotesAreaComponent {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.NotesAreaComponent textarea {
+  box-sizing: border-box;
+  background-color: #1E1E1E;
+  font-family: 'Poppins';
+  font-size: 18px;
+  color: #cccccc;
+  border: none;
+  outline: none;
+  resize: none;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,9 @@
+.TextComponent {
+  font-family: 'Poppins';
+  font-size: 18;
+  text-align: "left";
+  background-color: #00000000;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0.05rem;
+}

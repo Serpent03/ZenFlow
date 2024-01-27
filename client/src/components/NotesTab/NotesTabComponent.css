@@ -1,0 +1,16 @@
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
+
+.NotesTabComponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #2A2322;
+  padding: 1%;
+  /* width: 50%; */
+  min-height: 100vh;
+}

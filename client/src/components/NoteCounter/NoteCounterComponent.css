@@ -1,0 +1,31 @@
+.NoteCounterComponent {
+  background-color: #00000000;
+  border-style: none;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: white;
+  padding: 1rem 1rem;
+  margin: 0.25rem;
+  transition: all 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.NoteCounterComponentSelected {
+  border-radius: 10px;
+  border-style: none;
+  background-color: #2F3C66;
+}
+
+.NoteCounterComponent:hover {
+  background-color: #2F3C66;
+}
+
+.NoteCounterComponent:focus {
+  background-color: #2F3C66;
+}
+
+
+
+
