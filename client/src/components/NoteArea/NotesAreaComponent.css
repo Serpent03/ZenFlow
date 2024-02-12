@@ -1,22 +1,32 @@
 .NotesAreaComponent {
   width: 100%;
-  min-height: 100vh;
-  font-family: "Poppins";
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  background-color: #1E1E1E;
+  padding-left: 1em;
 }
 
 .NotesAreaComponent textarea {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   background-color: #1E1E1E;
-  font-family: 'Poppins';
   font-size: 18px;
   color: #cccccc;
   border: none;
   outline: none;
   resize: none;
   width: 100%;
-  height: 100%;
+  flex: 1;
 }
+
+.NotesAreaComponent #tags {
+  background-color: #1E1E1E;
+  width: 100%;
+  display: flex;
+}
+
+.NotesAreaComponent #tags .RoundedTextComponent {
+  width: fit-content;
+  margin: 0.5em 0.3em;
+}
+

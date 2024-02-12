@@ -20,6 +20,8 @@
 
 .NoteCounterComponent:hover {
   background-color: #2F3C66;
+  border-radius: 10px;
+  border: none;
 }
 
 .NoteCounterComponent:focus {

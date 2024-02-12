@@ -33,7 +33,6 @@
 
 .SearchBarComponent input, .SearchBarComponent textarea {
   font-size: 18px;
-  font-family: 'Poppins';
   border: none;
   text-decoration: none;
 }

@@ -6,4 +6,5 @@ function App() {
     </div>
   );
 }
+/** @todo Centralized constants */
 export default App;
