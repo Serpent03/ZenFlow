@@ -3,9 +3,11 @@ import TextComponent from "../Text/TextComponent";
 import "./NoteCounterComponent.css";
 
 function NoteCounterComponent(props) {
-  // TODO:
-  // change the class from NoteCounterComponent to NoteCounterComponentSelected
-  // when selected
+  /**
+   * @todo:
+   * change the class from NoteCounterComponent to NoteCounterComponentSelected
+   * when selected 
+   */
 
   return (
     <button className="NoteCounterComponent">

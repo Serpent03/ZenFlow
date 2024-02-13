@@ -6,5 +6,10 @@ function App() {
     </div>
   );
 }
+
+//   <NoteCounterComponent
+//     title={"Travel Blog"}
+//     description={"This blog is meant for only travel lovers.."}
+//   />
 /** @todo Centralized constants */
 export default App;

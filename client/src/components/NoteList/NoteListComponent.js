@@ -1,45 +1,28 @@
 import NoteCounterComponent from "../NoteCounter/NoteCounterComponent";
 import "./NoteListComponent.css"; 
 
+/** 
+ * @todo call the API over here
+ * @todo Implement NoteCounterComponent list population system 
+ */
+
+
 function NoteListComponent() {
+  var notesObject = [
+    {
+      noteTitle: "Lorem Ipsum stuff",
+      noteDescription: "This is for test",
+      noteContent: "lorem ipsum etc etc"
+    },
+  ];
   return(
     <div className={"NoteListComponent"}>
-      <NoteCounterComponent
-        title={"Travel Blog"}
-        description={"This blog is meant for only travel lovers.."}
-      />
-      <NoteCounterComponent
-        title={"Travel Blog"}
-        description={"This blog is meant for only travel lovers.."}
-      />
-      <NoteCounterComponent
-        title={"Travel Blog"}
-        description={"This blog is meant for only travel lovers.."}
-      />
-      <NoteCounterComponent
-        title={"Travel Blog"}
-        description={"This blog is meant for only travel lovers.."}
-      />
-      <NoteCounterComponent
-        title={"Travel Blog"}
-        description={"This blog is meant for only travel lovers.."}
-      />
-      <NoteCounterComponent
-        title={"Travel Blog"}
-        description={"This blog is meant for only travel lovers.."}
-      />
-      <NoteCounterComponent
-        title={"Travel Blog"}
-        description={"This blog is meant for only travel lovers.."}
-      />
-      <NoteCounterComponent
-        title={"Travel Blog"}
-        description={"This blog is meant for only travel lovers.."}
-      />
-      <NoteCounterComponent
-        title={"Travel Blog"}
-        description={"This blog is meant for only travel lovers.."}
-      />
+      {notesObject.forEach((elem) => {
+        <NoteCounterComponent 
+          title={elem.noteTitle}
+          description={elem.noteDescription}
+        />
+      })}
       <NoteCounterComponent
         title={"Travel Blog"}
         description={"This blog is meant for only travel lovers.."}
@@ -47,5 +30,6 @@ function NoteListComponent() {
     </div>
   );
 }
+
 
 export default NoteListComponent;
